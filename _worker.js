@@ -973,6 +973,6 @@ function createVLESSSub(userID_Path, hostName) {
 	});
 
 	// Join output with newlines
-	return output;
+	return output.join('\n');
 }
 
